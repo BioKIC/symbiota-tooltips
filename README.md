@@ -18,25 +18,25 @@ Created with the [Open Static API Kit](https://github.com/arbolitoloco/static-ap
 Get a term tooltip:
 
 ```
-curl -G https://laura.rochaprado.com/symbiota-tooltips/api/v<version number>/terms/<term_id>.json
+curl -G https://biokic.github.io/symbiota-tooltips/api/v<version number>/terms/<term_id>.json
 ```
 
 For instance, get `Catalog Number` tooltip:
 
 ```
-curl -G https://laura.rochaprado.com/symbiota-tooltips/api/v<version number>/terms/catalogNumber.json
+curl -G https://biokic.github.io/symbiota-tooltips/api/v1_0/terms/catalogNumber.json
 ```
 
 Get a page tooltip:
 
 ```
-curl -G https://laura.rochaprado.com/symbiota-tooltips/api/v<version number>/<path_to_page_file>/<pagefilename.php>.json
+curl -G https://biokic.github.io/symbiota-tooltips/api/v<version number>/<path_to_page_file>/<pagefilename.php>.json
 ```
 
 For instance, get `Taxonomic Tree Viewer` tooltip:
 
 ```
-curl -G https://laura.rochaprado.com/api/taxa/taxonomy/taxonomydisplay.php.json
+curl -G https://biokic.github.io/symbiota-tooltips/api/v1_0/taxa/taxonomy/taxonomydisplay.php.json
 ```
 
 ## Data
